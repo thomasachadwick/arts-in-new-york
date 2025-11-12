@@ -1,21 +1,23 @@
-# Arts in New York — MVP
+# Arts in New York — Next Steps Kit
 
-A minimal Next.js + Tailwind app for NYC arts listings: This Week, Calendar, Reviews, and Venues (tabbed).
+This version adds serverless APIs for event ingestion and review metadata extraction.
+
+## What’s New
+- `/api/events` — aggregates events from multiple sources and returns a de-duplicated list.
+- `/api/ingest/mock` — local mock events.
+- `/api/ingest/ticketmaster` — optional Ticketmaster Discovery integration (`TM_API_KEY`).
+- `/api/reviews/og?url=` — fetches Open Graph metadata for reviews.
+- `/lib/dedupe.ts` — merges overlapping listings.
+- `/data/venues.json` — your venue directory.
 
 ## Local Dev
 ```bash
 npm install
+cp .env.example .env.local  # optional: set TM_API_KEY
 npm run dev
-# open http://localhost:3000
 ```
 
-## Deploy on Vercel (Free)
-1. Push this folder to a GitHub repo (or upload directly in Vercel).
-2. In Vercel, **New Project** → import the repo.
-3. Framework preset: **Next.js**. No extra env vars needed.
-4. Deploy → you’ll get a free URL like `https://arts-in-new-york.vercel.app`.
-
-## Next Steps
-- Replace `MOCK_EVENTS` with real feeds (Ticketmaster/Eventbrite/org RSS).
-- Add a `/api/ingest` route and a DB (Supabase) for persistence & dedupe.
-- Reviews: store `source`, `headline`, `url` only; link out to read.
+## Deploy on Vercel
+- Push to GitHub → Import on Vercel.
+- Add env var `TM_API_KEY` in **Settings → Environment Variables** (optional).
+- Redeploy. `/api/events` includes Ticketmaster events if the key exists.

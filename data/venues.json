@@ -1,0 +1,216 @@
+{
+  "Classical & Opera": [
+    {
+      "name": "Carnegie Hall",
+      "hood": "Midtown",
+      "desc": "Flagship classical concert hall.",
+      "url": "https://www.carnegiehall.org/"
+    },
+    {
+      "name": "David Geffen Hall (Lincoln Center)",
+      "hood": "Lincoln Center",
+      "desc": "Home of the New York Philharmonic.",
+      "url": "https://www.nyphil.org/"
+    },
+    {
+      "name": "Metropolitan Opera House (Lincoln Center)",
+      "hood": "Lincoln Center",
+      "desc": "Major opera house.",
+      "url": "https://www.metopera.org/"
+    },
+    {
+      "name": "Alice Tully Hall",
+      "hood": "Lincoln Center",
+      "desc": "Chamber music and smaller orchestral performances.",
+      "url": "https://www.lincolncenter.org/venue/alice-tully-hall"
+    },
+    {
+      "name": "Chamber Music Society of Lincoln Center",
+      "hood": "Lincoln Center",
+      "desc": "Core chamber group (at Alice Tully).",
+      "url": "https://www.chambermusicsociety.org/"
+    },
+    {
+      "name": "Bargemusic",
+      "hood": "Brooklyn Heights",
+      "desc": "Floating venue for intimate chamber concerts.",
+      "url": "https://www.bargemusic.org/"
+    },
+    {
+      "name": "Town Hall",
+      "hood": "Midtown",
+      "desc": "Classical recitals, talks, mixed programming.",
+      "url": "https://thetownhall.org/"
+    },
+    {
+      "name": "Juilliard School Concert Halls",
+      "hood": "Lincoln Center",
+      "desc": "Student & faculty performances.",
+      "url": "https://www.juilliard.edu/stage-beyond"
+    },
+    {
+      "name": "Merkin Concert Hall (Kaufman Center)",
+      "hood": "Upper West Side",
+      "desc": "Smaller hall for new & classical music.",
+      "url": "https://www.kaufmanmusiccenter.org/mch/"
+    },
+    {
+      "name": "Queens College / Colden Auditorium",
+      "hood": "Queens",
+      "desc": "Classical & orchestral concerts in Queens.",
+      "url": "https://kupferbergcenter.org/venue/colden-auditorium/"
+    },
+    {
+      "name": "Brooklyn Academy of Music (BAM)",
+      "hood": "Fort Greene",
+      "desc": "Opera, contemporary music, multidisciplinary work.",
+      "url": "https://www.bam.org/"
+    },
+    {
+      "name": "92nd Street Y (Kaufmann Concert Hall)",
+      "hood": "Upper East Side",
+      "desc": "Classical recitals, lectures, music series.",
+      "url": "https://www.92ny.org/"
+    }
+  ],
+  "Theater (Broadway & Off-Broadway)": [
+    {
+      "name": "Lyceum Theatre",
+      "hood": "Broadway",
+      "desc": "Historic house; plays & revivals.",
+      "url": "https://www.broadway.org/theatres/details/lyceum-theatre,33"
+    },
+    {
+      "name": "Al Hirschfeld Theatre",
+      "hood": "Broadway",
+      "desc": "Major musicals.",
+      "url": "https://www.jujamcyn.com/theaters/al-hirschfeld-theatre/"
+    },
+    {
+      "name": "Stephen Sondheim Theatre",
+      "hood": "Broadway",
+      "desc": "Sleek modern space.",
+      "url": "https://www.roundabouttheatre.org/our-theatres/stephen-sondheim-theatre/"
+    },
+    {
+      "name": "Palace Theatre",
+      "hood": "Broadway",
+      "desc": "Classic Broadway house.",
+      "url": "https://en.wikipedia.org/wiki/Palace_Theatre_(Manhattan)"
+    },
+    {
+      "name": "Gershwin Theatre",
+      "hood": "Broadway",
+      "desc": "Home of Wicked; large venue.",
+      "url": "https://www.gershwintheatre.com/"
+    },
+    {
+      "name": "August Wilson Theatre",
+      "hood": "Broadway",
+      "desc": "Plays & musical revivals.",
+      "url": "https://www.jujamcyn.com/theaters/august-wilson-theatre/"
+    },
+    {
+      "name": "Belasco Theatre",
+      "hood": "Broadway",
+      "desc": "Ornate theatre; strong dramatic repertoire.",
+      "url": "https://www.shubert.nyc/theatres/belasco/"
+    },
+    {
+      "name": "Stage 42 (Little Shubert)",
+      "hood": "Off-Broadway",
+      "desc": "Large Off-Broadway for mid-sized musicals.",
+      "url": "https://shubert.nyc/theatres/stage-42/"
+    },
+    {
+      "name": "Westside Theatre",
+      "hood": "Off-Broadway",
+      "desc": "Two spaces; Little Shop of Horrors revival.",
+      "url": "https://westsidetheatre.com/"
+    },
+    {
+      "name": "Minetta Lane Theatre",
+      "hood": "Off-Broadway",
+      "desc": "Greenwich Village; intimate space.",
+      "url": "https://www.facebook.com/MinettaLaneTheatre/"
+    },
+    {
+      "name": "Lucille Lortel Theatre",
+      "hood": "Off-Broadway",
+      "desc": "Classic West Village venue.",
+      "url": "https://www.lortel.org/"
+    },
+    {
+      "name": "Daryl Roth Theatre",
+      "hood": "Union Square",
+      "desc": "Independent productions & revivals.",
+      "url": "https://www.darylroththeatre.com/"
+    },
+    {
+      "name": "Atlantic Theater Company (Linda Gross)",
+      "hood": "Chelsea",
+      "desc": "Original plays & musicals.",
+      "url": "https://atlantictheater.org/"
+    },
+    {
+      "name": "Astor Place Theatre",
+      "hood": "Off-Broadway",
+      "desc": "Home of Blue Man Group.",
+      "url": "https://www.blueman.com/new-york"
+    },
+    {
+      "name": "Asylum NYC",
+      "hood": "Off-Broadway",
+      "desc": "Comedy, parody musicals, fringe.",
+      "url": "https://www.asylumnyc.com/"
+    },
+    {
+      "name": "La MaMa E.T.C.",
+      "hood": "East Village",
+      "desc": "Legendary experimental space.",
+      "url": "https://lamama.org/"
+    },
+    {
+      "name": "The Tank",
+      "hood": "Midtown West",
+      "desc": "New work, multimedia theatre, emerging artists.",
+      "url": "https://thetanknyc.org/"
+    },
+    {
+      "name": "New York Theatre Workshop",
+      "hood": "East Village",
+      "desc": "Acclaimed Off-Broadway premieres.",
+      "url": "https://www.nytw.org/"
+    },
+    {
+      "name": "Signature Theatre",
+      "hood": "W 42nd St",
+      "desc": "Rotating residencies of modern playwrights.",
+      "url": "https://www.signaturetheatre.org/"
+    },
+    {
+      "name": "SoHo Rep",
+      "hood": "SoHo",
+      "desc": "Avant-garde new plays.",
+      "url": "https://sohorep.org/"
+    },
+    {
+      "name": "Playwrights Horizons",
+      "hood": "Off-Broadway",
+      "desc": "Contemporary American playwrights.",
+      "url": "https://www.playwrightshorizons.org/"
+    },
+    {
+      "name": "The Public Theater",
+      "hood": "Astor Place",
+      "desc": "Major institution; incl. Shakespeare in the Park.",
+      "url": "https://publictheater.org/"
+    },
+    {
+      "name": "St. Ann\u2019s Warehouse",
+      "hood": "DUMBO",
+      "desc": "Experimental & international theatre/music.",
+      "url": "https://stannswarehouse.org/"
+    }
+  ]
+}

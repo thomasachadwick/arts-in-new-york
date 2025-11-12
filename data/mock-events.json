@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "title": "La Boh\u00e8me \u2014 Metropolitan Opera",
+    "org": "Met Opera",
+    "genre": "Opera",
+    "venue": "Metropolitan Opera House",
+    "neighborhood": "Lincoln Center",
+    "url": "https://www.metopera.org/",
+    "date": "2025-11-12",
+    "startTime": "19:30",
+    "endTime": "22:10",
+    "price": "$45+",
+    "blurb": "Puccini's classic in a beloved Zeffirelli revival.",
+    "reviews": [
+      {
+        "outlet": "NY Classical Review",
+        "title": "A vocally glowing Boh\u00e8me",
+        "url": "https://nyclassicalreview.com/"
+      }
+    ],
+    "source": "manual"
+  },
+  {
+    "id": "2",
+    "title": "Beethoven 7 & John Adams \u2014 NY Phil",
+    "org": "New York Philharmonic",
+    "genre": "Classical",
+    "venue": "David Geffen Hall",
+    "neighborhood": "Lincoln Square",
+    "url": "https://nyphil.org/",
+    "date": "2025-11-14",
+    "startTime": "20:00",
+    "endTime": "21:50",
+    "price": "$39+",
+    "blurb": "A crackling Seventh with contemporary flair.",
+    "reviews": [],
+    "source": "manual"
+  }
+]
