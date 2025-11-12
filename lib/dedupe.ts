@@ -1,5 +1,6 @@
 import type { EventItem } from './types';
-function norm(s:string){ return s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(); }
+function norm(s: string | undefined) {
+  return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
 export function dedupeEvents(list: EventItem[]): EventItem[] {
   const seen = new Map<string, EventItem>();
   for (const e of list) {
