@@ -1,4 +1,6 @@
-import ical from 'ical';
+// ical has no TypeScript types; use require() to silence TS
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ical = require('ical');
 import { toISODate, toHM } from '../normalize';
 import type { EventItem } from '../types';
 
