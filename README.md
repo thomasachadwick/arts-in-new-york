@@ -1,23 +1,28 @@
-# Arts in New York — Next Steps Kit
+# Arts in New York — v3
+**What’s new**
+- Grouped “Production” cards (one per title+venue) with next showtimes
+- Week view starts from today (no past days in the current week)
+- Venue allowlist (filters to your curated NYC venues)
+- Authoritative ingestion via RSS/ICS (configured via env var)
 
-This version adds serverless APIs for event ingestion and review metadata extraction.
+## Configure CMS & NY Phil
+Vercel → Project → **Settings → Environment Variables**
 
-## What’s New
-- `/api/events` — aggregates events from multiple sources and returns a de-duplicated list.
-- `/api/ingest/mock` — local mock events.
-- `/api/ingest/ticketmaster` — optional Ticketmaster Discovery integration (`TM_API_KEY`).
-- `/api/reviews/og?url=` — fetches Open Graph metadata for reviews.
-- `/lib/dedupe.ts` — merges overlapping listings.
-- `/data/venues.json` — your venue directory.
+**Key:** `FEEDS_JSON`  
+**Value (JSON):**
+```
+[
+  { "type":"ics", "url":"<PASTE NY PHIL ICS URL>", "genre":"Classical", "org":"New York Philharmonic", "venue":"David Geffen Hall", "source":"NY Phil (ICS)" },
+  { "type":"rss", "url":"<PASTE CMS RSS URL>", "genre":"Classical", "org":"Chamber Music Society of Lincoln Center", "venue":"Alice Tully Hall", "source":"CMS (RSS)" }
+]
+```
+Then **Redeploy**. Add more feeds as needed.
+
+## Endpoint
+- `GET /api/events` → `{ groups: [...] }`
 
 ## Local Dev
 ```bash
 npm install
-cp .env.example .env.local  # optional: set TM_API_KEY
 npm run dev
 ```
-
-## Deploy on Vercel
-- Push to GitHub → Import on Vercel.
-- Add env var `TM_API_KEY` in **Settings → Environment Variables** (optional).
-- Redeploy. `/api/events` includes Ticketmaster events if the key exists.
